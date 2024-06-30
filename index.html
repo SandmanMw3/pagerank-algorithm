@@ -1,0 +1,29 @@
+<!-- برای اجرای داخل vs code 
+    از live server استفاده کنید
+-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Page Rank</title>
+    </head>
+
+    <body>
+        <div id="app">
+            <table id="scoreboard-container">
+                <thead id="scoreboard-title-container">
+                    <tr id="scoreboard-title-line">
+                        <th class="scoreboard-title">Position</th>
+                        <th class="scoreboard-title">URL</th>
+                        <th class="scoreboard-title">Score</th>
+                    </tr>
+                </thead>
+                <tbody id="scoreboard-datas-container"></tbody>
+            </table>
+            <canvas id="root" width="500" height="500"></canvas>
+        </div>
+        <script src="./scripts/main.js" type="module"></script>
+    </body>
+</html>
